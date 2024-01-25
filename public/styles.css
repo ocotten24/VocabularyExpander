@@ -1,0 +1,102 @@
+* {
+    font-family: 'Playpen Sans', cursive;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.title {
+    color: #d03424;
+}
+
+
+.definitionDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.definition {
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: center;
+    font-size: 3em;
+}
+
+.wordButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.resetButton {
+    font-size: 3vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5pt;
+    border-color: #d03424;
+    color: #d03424;
+    cursor: pointer;
+}
+
+
+
+
+.wordButton {
+    width: 20%;
+    height: 6em;
+    font-size: 2.5em;
+    background-color: black;
+    border-radius: 25%;
+    margin: 5pt;
+    border-color: #d03424;
+}
+
+.wordButton:hover {
+    cursor: pointer;
+}
+
+.lives {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heart {
+    width: 5em;
+}
+
+
+.score {
+    font-size: 2em;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 575px) {
+    .wordButton {
+      width: 100%; 
+      display: block; 
+      font-size: 1.4em;
+      margin: 0;
+    }
+
+
+    .definition {
+        font-size: 2em;
+    }
+
+    .resetButton {
+        font-size: 5vw
+    }
+    
+    .wordButtons {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    
+  }
+  
